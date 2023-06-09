@@ -1,3 +1,3 @@
 document.addEventListener('DOMContentLoaded', function() {
-    alert("Extension is loaded!");
+    alert('Hello and welcome to BookmarkAI');
 });
