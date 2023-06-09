@@ -1,16 +1,18 @@
 {
     "manifest_version": 3,
-    "name": "My Cool Extension",
+    "name": "BookmarkAI Web Scraper",
     "version": "1.0",
-    "description": "A simple Chrome extension",
-    "action": {
-        "default_popup": "popup.html"
-    },
+    "description": "A simple Chrome extension that scrapes web content in order to help group bookmarked websites togther automatically and offers suggestions to the user",
     "permissions": [
         "activeTab"
+    ],
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["contentScript.js"]
+        }
     ]
 }
-
 
 
 
