@@ -6,6 +6,7 @@
     "permissions": [  //since the extension needs to compare text from different websites that are bookmarked, the permissions below have been identified. 
     "bookmarks",
     "storage",
+    "activeTab",
     "<all_urls>"
 
     ], 
