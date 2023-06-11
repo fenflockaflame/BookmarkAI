@@ -3,12 +3,12 @@
     "name": "BookmarkAI Web Scraper",
     "version": "1.0",
     "description": "A simple Chrome extension that scrapes web content in order to help group bookmarked websites togther automatically and offers suggestions to the user",
-    "permissions": [  
+    "permissions": [  //since the extension needs to compare text from different websites that are bookmarked, the permissions below have been identified. 
     "bookmarks",
     "storage",
     "<all_urls>"
-
-    ], //Since the extension needs to compare text from different websites that are bookmarked, the permissions below have been identified. 
+]
+    ], 
     "content_scripts": [
         {
             "matches": ["<all_urls>"],
